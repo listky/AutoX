@@ -9,7 +9,7 @@ import com.stardust.app.GlobalAppContext;
 import com.stardust.autojs.runtime.accessibility.AccessibilityConfig;
 
 import org.autojs.autojs.autojs.key.GlobalKeyObserver;
-
+import org.autojs.autoxjs.R;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
@@ -141,7 +141,7 @@ public class Pref {
     }
 
     public static boolean isAutoBack() {
-        return def().getBoolean(getString(R.string.key_auto_back), true);
+        return def().getBoolean(getString(R.string.key_auto_backup), true);
     }
 
     public static void setFloatingMenuShown(boolean checked) {

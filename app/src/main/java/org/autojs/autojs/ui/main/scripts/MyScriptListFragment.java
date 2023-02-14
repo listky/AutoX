@@ -1,3 +1,4 @@
+/*
 package org.autojs.autojs.ui.main.scripts;
 
 import android.app.Activity;
@@ -6,7 +7,6 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import androidx.annotation.Nullable;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
 import com.stardust.app.GlobalAppContext;
 import com.stardust.enhancedfloaty.FloatyService;
 import com.stardust.util.IntentUtil;
@@ -15,7 +15,7 @@ import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EFragment;
 import org.androidannotations.annotations.ViewById;
 import org.autojs.autojs.Pref;
-import org.autojs.autojs.R;
+import org.autojs.autoxjs.R;
 import org.autojs.autojs.autojs.AutoJs;
 import org.autojs.autojs.external.fileprovider.AppFileProvider;
 import org.autojs.autojs.external.foreground.ForegroundService;
@@ -36,13 +36,14 @@ import org.autojs.autojs.ui.viewmodel.ExplorerItemList;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 
-import java.util.Objects;
-
 import io.reactivex.android.schedulers.AndroidSchedulers;
 
+*/
 /**
  * Created by Stardust on 2017/3/13.
- */
+ *//*
+
+@Deprecated
 @EFragment(R.layout.fragment_my_script_list)
 public class MyScriptListFragment extends ViewPagerFragment implements FloatingActionMenu.OnFloatingActionButtonClickListener {
 
@@ -208,3 +209,4 @@ public class MyScriptListFragment extends ViewPagerFragment implements FloatingA
         }
     }
 }
+*/

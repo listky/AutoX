@@ -24,7 +24,6 @@ import androidx.appcompat.widget.AppCompatEditText;
 
 import com.stardust.util.TextUtils;
 
-import org.autojs.autojs.Pref;
 import org.autojs.autojs.ui.edit.theme.Theme;
 import org.autojs.autojs.ui.edit.theme.TokenMapping;
 import org.mozilla.javascript.Token;
